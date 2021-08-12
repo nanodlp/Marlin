@@ -3019,7 +3019,7 @@
  * string to enable synchronization with DLP projector exposure. This change will allow to use
  * [[WaitForDoneMessage]] instead of populating your gcode with M400 commands
  */
-//#define NANODLP_Z_SYNC
+#define NANODLP_Z_SYNC
 #if ENABLED(NANODLP_Z_SYNC)
   //#define NANODLP_ALL_AXIS  // Enables "Z_move_comp" output on any axis move.
                               // Default behavior is limited to Z axis only.

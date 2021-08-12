@@ -198,7 +198,7 @@
   #define MOSFET_D_PIN     -1
 #endif
 #ifndef RAMPS_D8_PIN
-  #define RAMPS_D8_PIN      8
+  #define RAMPS_D8_PIN      -1
 #endif
 #ifndef RAMPS_D9_PIN
   #define RAMPS_D9_PIN      9
